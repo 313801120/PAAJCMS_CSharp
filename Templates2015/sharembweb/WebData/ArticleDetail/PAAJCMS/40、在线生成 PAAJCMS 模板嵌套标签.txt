@@ -1,0 +1,52 @@
+【parentid】PAAJCMS
+【title】在线生成PAAJCMS模板嵌套标签
+【webtitle】在线生成PAAJCMS模板嵌套标签 - 分享模板网站
+【webkeywords】在线生成PAAJCMS模板嵌套标签 - 分享模板网站
+【webdescription】在线生成PAAJCMS模板嵌套标签 - 分享模板网站
+【sortrank】40
+【author】sharembweb
+【adddatetime】2015-07-14 22:38:35
+【filename】/PAAJCMS/online-make-Tags.html
+【customaurl】
+【flags】|
+【isonhtml】true
+【relatedtags】PAAJCMS
+【bodycontent】 
+
+	<script type="text/javascript" src="/Jquery/jquery.Min.js"></script>
+	<script type="text/javascript" src="[$cfg_webimages$]/tagsApp.js"></script>
+	<script type="text/javascript" src="[$cfg_webimages$]/database.js"></script>
+	<form action="" method="post" name="control">
+		<select name="didlist" id="didlist" class="inputstyle"></select>
+		<select name="sidlist" id="sidlist" class="inputstyle"></select>
+		<div id="bodywrap"></div>
+	</form>
+	<div style="margin:20px 0 0 0;font-weight:bold">显示标签生成后代码</div>
+	<div>
+		<textarea name="txtEchoInfo" style="width:98%" rows="6" id="txtEchoInfo" class="inputstyle">显示标签生成后代码</textarea>
+	</div>
+	
+	
+ 	<br /><br /><br />
+	<div style="margin:20px 0 0 0;font-weight:bold">显示标签对应帮助信息</div>
+	<div>
+		<textarea name="txtHelpInfo" style="width:98%" rows="6" id="txtHelpInfo" class="inputstyle">显示标签对应帮助信息</textarea>
+	</div>
+
+	
+
+<br><br> 
+ 
+<ul class="list">
+<li><a href="http://pan.baidu.com/s/1eSoDtJ0"  rel="nofollow" target="_blank">【百度云盘】PAAJCMS模板标签生成器绿色版</a></li> 
+<li><a href="http://sharembweb.com/tagdoc/v1/"  rel="nofollow" target="_blank">AspPhpCMS v1标签手册</a></li> 
+</ul>
+ 
+<br><br> 
+{$TitleInSearchEngineList divclass='article_lable'  title='在线生成PAAJCMS模板嵌套标签'$}
+
+【/bodycontent】
+
+
+ 
+

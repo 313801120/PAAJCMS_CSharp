@@ -1,0 +1,37 @@
+【parentid】PAAJCMS
+【title】PAAJCMS帮助手册
+【webtitle】PAAJCMS帮助手册 - 分享模板网站
+【webkeywords】PAAJCMS帮助手册 - 分享模板网站
+【webdescription】PAAJCMS帮助手册 - 分享模板网站
+【sortrank】70
+【author】sharembweb
+【adddatetime】2015-03-18 08:51:11
+【filename】/PAAJCMS/help.html
+【customaurl】
+【flags】
+【relatedtags】PAAJCMS
+【bodycontent】
+[&全部换行&]PAAJCMS帮助手册
+
+
+各位站长们：
+
+　　感谢大家一直以来对PAAJCMS的帮助和支持！现发布《PAAJCMS V1.0 用户手册》来帮助大家更直接，更清晰的了解PAAJCMS V1.0。
+
+　　《PAAJCMS V1.0 用户手册》教程和之前的在线版本相比更加详细，条理更加分明，欢迎大家针对手册提出合理的意见和建议，我们会采纳您的合理化建议不断改进和完善帮助文档，希望可以尽可能的为广大站长朋友提供便利。
+
+
+<b>更多帮助：</b>
+<a href="https://github.com/313801120/PAAJCMS" class="ablue"  target="_blank">Github下载PAAJCMS</a>
+<a href="http://sharembweb.com/Tools/zip/PAAJCMS.chm" class="ablue" rel="nofollow" target="_blank">下载PAAJCMS帮助文档(chm版)</a>
+<a href="http://sharembweb.com/tagdoc/v1/" class="ablue" target="_blank">AspPhpCMS v1标签手册</a>
+
+
+{$TitleInSearchEngineList divclass='article_lable'  title='PAAJCMS帮助手册'$}
+
+<br>
+【/bodycontent】
+
+
+ 
+

@@ -1,0 +1,20 @@
+°æwebtitle°øzsjujia±ÍÃ‚
+°æwebkeywords°øzsjujiaπÿº¸¥ 
+°æwebdescription°øzsjujia√Ë ˆ
+°æwebsitebottom°ø
+
+[$aoutadd$]
+
+°æ/websitebottom°ø
+
+°æwebtemplate°ø/Templates/aaaaaa/
+°æwebimages°ø/Templates/bbbb/Images/
+°æwebcss°ø/Templates/ccccc/Css/
+°æwebjs°ø/Templates/ddddd/Js/
+°æflags°ø
+°æwebsiteurl°øhttp://test.com/
+
+
+
+
+|addwebsite|iscloseeditor|htmlrun|ziphtml|

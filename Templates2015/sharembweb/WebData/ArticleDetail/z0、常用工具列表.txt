@@ -1,0 +1,635 @@
+【parentid】常用工具
+【title】格式化ASP
+【sortrank】0
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-01-28 15:09:05
+【nofollow】0
+【isonhtml】0
+【customaurl】{$GetColumnUrl columnname='在线格式化ASP'$}
+-------------------------------
+【parentid】常用工具
+【title】格式化PHP
+【sortrank】10
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/formatphp.html
+【webtitle】格式化PHP_在线格式化PHP
+【webkeywords】格式化PHP_在线格式化PHP
+【webdescription】提供在线格式化PHP功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的PHP代码，提交后等待几秒即可输出格式化后的PHP代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=formatphp" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+<?PHP
+if(1==1){
+echo('11');
+}else{
+echo("else");
+}
+?> 
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+</form> 
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】格式化JS
+【sortrank】20
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/formatjs.html
+【webtitle】格式化JS_在线格式化JS
+【webkeywords】格式化JS_在线格式化JS
+【webdescription】提供在线格式化JS功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的JS代码，提交后等待几秒即可输出格式化后的JS代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=formatjs" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+&lt;script>
+if(1==1){
+document.write('11');
+}else{
+document.write("else");
+}
+&lt;/script>
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+</form> 
+<br> 
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】格式化HTML
+【sortrank】30
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/formathtml.html
+【webtitle】格式化HTML_在线格式化HTML
+【webkeywords】格式化HTML_在线格式化HTML
+【webdescription】提供在线格式化HTML功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的HTML代码，提交后等待几秒即可输出格式化后的HTML代码：(更新于20160308)</div>
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=formathtml" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+&lt;div>
+111
+&lt;div>
+2222
+&lt;div>
+333
+&lt;/div>
+&lt;/div>
+&lt;/div>
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+  
+  <select name="stype" id="stype"  class="inputstyle">
+  <option>选择HTML处理方式</option>
+  <option value="autohandlerow">处理一行HTML</option>
+</select>
+
+<input class="mybtn" type="button" value="格式化" onclick="return do_js_beautify()" id="beautify" />
+<br>
+<div id="returnHtmlResult" style="display:none;margin-top:15px;">
+<textarea name="showcontent" id="showcontent" class="inputstyle" style="width:99%;height:380px;">
+</textarea>
+</div>
+</form> 
+<br> 
+<script src="http://sharembweb.com/Tools/FormattingTools/Tools/htmlformat.js" type="text/javascript"></script>
+<script type="text/javascript">
+function do_js_beautify() {
+	
+	document.getElementById('returnHtmlResult').style.display = "block";
+	document.getElementById('beautify').disabled = true;
+	js_source = document.getElementById('content').value.replace(/^\s+/, '');
+	tabsize = 4;
+	tabchar = ' ';
+	if (tabsize == 1) {
+		tabchar = '\t';
+	}
+	document.getElementById('showcontent').value = style_html(js_source, tabsize, tabchar, 80);
+	document.getElementById('beautify').disabled = false;
+	return false;
+}
+</script>
+
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】格式化CSS
+【sortrank】40
+【author】sharembweb
+【adddatetime】2015-01-28 15:09:05
+【nofollow】1
+【isonhtml】0
+【target】_blank
+【customaurl】http://sharembweb.com/Tools/FormattingTools/Tools/CSS压缩格式化工具.html
+-------------------------------
+【parentid】常用工具
+【title】ASP代码混淆
+【sortrank】41
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/aspCodeConfusion.html
+【webtitle】ASP代码混淆_在线ASP代码混淆
+【webkeywords】ASP代码混淆_在线ASP代码混淆
+【webdescription】提供在线ASP代码混淆功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的ASP代码，提交后等待几秒即可输出格式化后的ASP代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=aspCodeConfusion" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+&lt;%
+function testfun(title,about,content)
+	dim authorName,authorQQ
+	authorName="红尘云孙"
+	authorQQ="313801120"
+	response.write("title=" & title & "<br>")
+	response.write("about=" & about & "<br>")
+	response.write("content=" & content & "<br>")
+	response.write("authorName=" & authorName & "<br>")
+	response.write("authorQQ=" & authorQQ & "<br>")
+
+end function
+call testfun("测试标题","关于我们","更多内容")
+%&gt;
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+</form> 
+<br> 
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】JS代码混淆
+【sortrank】42
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/jsCodeConfusion.html
+【webtitle】JS代码混淆_在线JS代码混淆
+【webkeywords】JS代码混淆_在线JS代码混淆
+【webdescription】提供在线JS代码混淆功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的JS代码，提交后等待几秒即可输出格式化后的JS代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=jsCodeConfusion" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+&lt;script type="text/javascript">
+function testfun(title,about,content){
+	var aa='',bb="",dd='asdf';
+    var authorName=''
+	var authorQQ='';
+	var aabbcc
+    authorName='红尘云孙';
+    authorQQ='313801120';
+	aabbcc="eeeeee11\"11eeee";
+    document.write('title=' + title + '<br />');
+    document.write('about=' + about + '<br />');
+    document.write('content=' + content + '<br />');
+    document.write('authorName=' + authorName + '<br />');
+    document.write('authorQQ=' + authorQQ + '<br />');
+    document.write('aabbcc=' + aabbcc + '<br />');
+ 
+}
+testfun('测试标题','关于我们','更多内容');
+</script>
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+</form> 
+<br> 
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】PHP代码混淆
+【sortrank】43
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/phpCodeConfusion.html
+【webtitle】PHP代码混淆_在线PHP代码混淆
+【webkeywords】PHP代码混淆_在线PHP代码混淆
+【webdescription】提供在线PHP代码混淆功能 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的PHP代码，提交后等待几秒即可输出格式化后的PHP代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/Tools.Asp?act=phpCodeConfusion" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">
+&lt;?PHP
+function testfun($title,$about,$content){
+    $authorName='';$authorQQ='';
+    $authorName='红尘云孙';
+    $authorQQ='313801120';
+    echo('title=' . $title . '<br />');
+    echo('about=' . $about . '<br />');
+    echo('content=' . $content . '<br />');
+    echo('authorName=' . $authorName . '<br />');
+    echo('authorQQ=' . $authorQQ . '<br />');
+
+}
+testfun('测试标题','关于我们','更多内容');
+?>
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+</form> 
+<br> 
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】生成嵌套标签
+【sortrank】50
+【author】sharembweb
+【adddatetime】2015-01-28 15:09:05
+【nofollow】0
+【isonhtml】0
+【customaurl】http://sharembweb.com/aspphpcms/online-make-Tags.html
+-------------------------------
+【parentid】常用工具
+【title】创建Asp函数
+【sortrank】60
+【author】sharembweb
+【adddatetime】2015-01-28 15:09:05
+【nofollow】1
+【isonhtml】0
+【customaurl】http://sharembweb.com/Tools/FormattingTools/CreateFunction.Asp
+-------------------------------
+【parentid】常用工具
+【title】在线ASP转JS
+【sortrank】70
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/asptophp/asptojs.html
+
+【webtitle】在线ASP转JS,在线ASP代码转JS代码,在线ASP程序转JS程序,AspToJs - 分享模板网站
+【webkeywords】在线ASP转JS,在线ASP代码转JS代码,在线ASP程序转JS程序,AspToJs - 分享模板网站
+【webdescription】提供ASP代码转换成JS代码服务 - 分享模板网站QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的ASP代码，提交后等待几秒即可生成JS代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/asptophp/asptophp.asp?act=handlecontent&language=js" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;"><% 
+'作者：红尘云孙 QQ313801120  http://sharembweb.com/
+'这是一个测试程序
+if 1=1 then												'if判断
+	response.Write("1<hr>")
+elseif 1=2 then
+
+	response.Write("2<hr>")
+else
+	
+	response.Write("else<hr>")
+end if
+dim aa,bb,cc,splstr,s,i,c
+aa=1
+bb=2
+cc=3
+response.Write("aa=" & aa & "<br>")
+response.Write("bb=" & bb & "<br>")
+response.Write("cc=" & cc & "<br>")
+splstr=split("aa|bb|cc","|")
+for i=0 to ubound(splstr)
+	s=splstr(i)
+	response.Write(i & "、" & s & "<hr>")
+next
+%>  
+   
+
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">
+  <label for="isOpenImportFunction"><input name="isOpenImportFunction" type="checkbox" id="isOpenImportFunction" value="1" checked>导入函数</label>
+</form>
+
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】ASP源码下载
+【sortrank】80
+【flags】|h|
+【author】sharembweb
+【adddatetime】2016-05-30 15:09:05
+【filename】
+【nofollow】1
+【isonhtml】0
+【customaurl】http://sharembweb.com/tools/codedown.asp?type=asp
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】PHP源码下载
+【sortrank】90
+【flags】|h|
+【author】sharembweb
+【adddatetime】2016-05-30 15:09:05
+【filename】
+【nofollow】1
+【isonhtml】0
+【customaurl】http://sharembweb.com/tools/codedown.asp?type=php
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】在线GB2312字符转UTF8字符
+【sortrank】100
+【flags】||
+【author】sharembweb
+【adddatetime】2015-03-21 15:09:05
+【filename】/toolslist/online-gb2312-utf8.html
+
+【webtitle】在线GB2312字符转UTF8字符 - 分享模板网站
+【webkeywords】在线GB2312字符转UTF8字符 - 分享模板网站
+【webdescription】在线GB2312字符转UTF8字符 - 分享模板网站QQ313801120
+【bodycontent】
+
+<div class="divtip">输入你的ASP代码，提交后等待几秒即可生成PHP代码：(更新于20160308)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/tools.asp?act=gbtoutf" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">作者：红尘云孙 QQ313801120  http://sharembweb.com/
+'这是一个测试程序
+  
+aa
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">   
+</form>
+
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】在线汉字转拼音
+【sortrank】110
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-03-22 15:09:05
+【filename】/toolslist/onlin-Chinese-pinyin.html
+
+【webtitle】在线汉字转拼音工具，汉字转拼音，汉字到拼音 - 分享模板网站
+【webkeywords】在线汉字转拼音工具，汉字转拼音，汉字到拼音 - 分享模板网站
+【webdescription】在线汉字转拼音工具，汉字转拼音，汉字到拼音 - 分享模板网站 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入汉字内容，提交后等待几秒即可生成(更新于20160322)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/tools.asp?act=pinyin" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">作者：红尘云孙 QQ313801120  http://sharembweb.com/
+分享模板网站
+  </textarea>
+<div class="clear10"></div>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">   
+</form>
+
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】在线简体繁体互转
+【sortrank】110
+【flags】|h|
+【author】sharembweb
+【adddatetime】2016-06-27 15:09:05
+【filename】/toolslist/Simplified-and-complex-interaction.html
+
+【webtitle】在线汉简体繁体互转
+【webkeywords】在线简体繁体互转
+【webdescription】在线简体繁体互转 QQ313801120
+【bodycontent】
+
+<div class="divtip">输入汉字内容，提交后等待几秒即可生成(更新于20160322)</div>
+
+<form name="form1" method="post" action="http://sharembweb.com/toolslist/tools.asp?act=simplifiedTab" target="_blank">
+  <textarea name="content" id="content" class="inputstyle" style="width:99%;height:380px;">作者：红尘云孙 QQ313801120  http://sharembweb.com/
+分享模板网站
+  </textarea>
+<div class="clear10"></div>
+<label for="isFan"><input name="isFan" type="checkbox" id="isFan" value="1" checked>转成繁体</label><br>
+  <input type="submit" name="button" id="button" value="提交" class="mybtn">   
+</form>
+
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】在线计算器
+【sortrank】120
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-03-22 15:09:05
+【filename】/toolslist/online-Calculator.html
+
+【webtitle】在线计算器 - 分享模板网站
+【webkeywords】在线计算器 - 分享模板网站
+【webdescription】在线计算器 - 分享模板网站QQ313801120
+【bodycontent】
+
+<div class="divtip">输入计算公式，提交后等待几秒即可生成(更新于20160322)</div>
+
+<input name="jsqtext" type="text" id="jsqtext" value="1+2+3*5/3+3+5" class="inputstyle" style="width:99%;" />
+<div class="clear10"></div>
+  <input type="button" name="button" id="button" value="点击计算" class="mybtn" onclick="handleJSQ()">   
+</form>
+<div id="jsqmsg"></div>
+<script>
+function handleJSQ(){
+	myevaljsq(document.getElementById("jsqtext").value);
+}
+function myevaljsq(str){	
+	try{
+		var s=eval(str); 
+		document.getElementById("jsqmsg").innerHTML= str + '=' + '<span>'+ s +'</span>';
+	}catch(err){
+		document.getElementById("jsqmsg").innerHTML=  str + '<b><font color=red>公式有问题啊</font></b>';
+	}
+}
+</script>
+<br>
+
+
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】在线聊天机器人
+【sortrank】130
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-03-22 15:09:05
+【filename】/toolslist/online-chat-robot.html
+
+【webtitle】在线聊天机器人 - 分享模板网站
+【webkeywords】在线聊天机器人 - 分享模板网站
+【webdescription】在线聊天机器人 - 分享模板网站QQ313801120
+【bodycontent】
+
+<div class="divtip">智慧聊天机器人 (更新于20160322)</div>
+
+<input name="jsqtext" type="text" id="jsqtext" value="你好" class="inputstyle" style="width:99%;" />
+<div class="clear10"></div>
+  <input type="button" name="button" id="button" value="发送" class="mybtn" onclick="chatrobot()">   
+</form>
+<div id="chatrobotmsg"></div>
+<script>
+function chatrobot(){
+	 var content=document.getElementById("jsqtext").value;
+	 var dataStr = "content=" + escape(content);
+	 $.ajax({
+             type: "POST",
+             url: "tools.asp?act=chatrobot",
+             data: dataStr,
+             success: function(result) {
+			   $("#chatrobotmsg").html( $("#chatrobotmsg").html() + unescape(result));
+             }
+           });
+	
+}
+</script>
+<br>
+【/bodycontent】
+-------------------------------
+【parentid】常用工具
+【title】搜索引擎收录
+【sortrank】140
+【flags】|h|
+【author】sharembweb
+【adddatetime】2015-03-22 15:09:05
+【filename】/toolslist/search-engine-fast-goto.html
+
+【webtitle】搜索引擎收录_快速查找搜索引擎收录情况
+【webkeywords】搜索引擎收录_快速查找搜索引擎收录情况
+【webdescription】输入你要搜索的内容，然后点击你想要在那个搜索引擎里搜索内容 QQ313801120
+【bodycontent】
+
+<div class="divtip">快速查找搜索引擎收录情况 (更新于20160414)</div> 
+<br>
+<a href="javascript:displaySearchList('免费开源cms系统')" class='ablue'>免费开源cms系统</a>  sogou第7页  20160511<br>
+<a href="javascript:displaySearchList('内容管理 demo')" class='ablue'>内容管理 demo</a>  bing第1页   20160512<br>
+<a href="javascript:displaySearchList('文件命名和seo')" class='ablue'>文件命名和seo</a>  bing第1页 youdao第1页 sogou第1页 haoso第1页  20160513<br>
+<a href="javascript:displaySearchList('js格式化')" class='ablue'>js格式化</a>  bing第1页   20160512<br>
+<a href="javascript:displaySearchList('js 常用')" class='ablue'>js 常用</a>  bing第1页   20160518<br>
+
+<a href="javascript:displaySearchList('js在线格式化')" class='ablue'>js在线格式化</a>  bing第1页   20160518<br>
+
+<a href="javascript:displaySearchList('php在线格式化')" class='ablue'>php在线格式化</a>  bing第1页   20160518<br>
+<a href="javascript:displaySearchList('网站在线克隆')" class='ablue'>网站在线克隆</a>  sogou第2页   20160525<br>
+<a href="javascript:displaySearchList('php/asp互转网站')" class='ablue'>php/asp互转网站</a>  sogou第1页   20160627<br>
+ 
+
+<br>
+<div>搜索内容：
+<input type="text" name="searchvalue" id="searchvalue" value="site:sharembweb.com" class="inputstyle" style="width:70%;margin:0 4px 0 0">
+<input type="button" class="mybtn" name="button" id="button" value="搜索" onClick="displaySearchList()">
+</div>
+<div>快速查的：<a href="javascript:displaySearchList('PAAJCMS')" class='ablue'>PAAJCMS</a>
+，<a href="javascript:displaySearchList('在线ASP转PHP')" class='ablue'>在线ASP转PHP</a>
+，<a href="javascript:displaySearchList('作者：红尘云孙')" class='ablue'>作者：红尘云孙</a>
+，<a href="javascript:displaySearchList('QQ313801120')" class='ablue'>QQ313801120</a>
+</div>
+本站：<a href='http://zhannei.baidu.com/cse/search?s=2053070418731876318&entry=1&q=' target='_blank' class='ablue'>百度站内搜索</a><br>
+<br><br>
+
+<div id="searchbody">
+
+{$TitleInSearchEngineList divclass='article_lable'  title='site:sharembweb.com'$}
+
+</div>
+<script>
+
+function displaySearchList(title){
+	if(title==undefined){
+		title=document.getElementById("searchvalue").value;
+	}
+	var c='',s='';
+	
+	c+='<li><a href="https://www.baidu.com/s?ie=gb2312&word=' + title + '" target="_blank">【baidu搜索】在百度里搜索(' + title + ')</a></li>';
+	c+='<li><a href="http://www.haosou.com/s?ie=gb2312&q=' + title + '" target="_blank">【haosou搜索】在好搜里搜索(' + title + ')</a></li>';
+	c+='<li><a href="https://search.yahoo.com/search;_ylt=A86.JmbkJatWH5YARmebvZx4?toggle=1&cop=mss&ei=gb2312&fr=yfp-t-901&fp=1&p=' + title + '" target="_blank">【yahoo搜索】在雅虎里搜索(' + title + ')</a></li>';
+	
+	c+='<li><a href="https://www.sogou.com/sogou?ie=utf8&query=' + toUTFChar(title) + '" target="_blank">【sogou搜索】在搜狗里搜索(' + title + ')</a></li>'; 
+	
+	
+	c+='<li><a href="http://www.youdao.com/search?ue=utf8&q=' + toUTFChar(title) + '" target="_blank">【youdao搜索】在有道里搜索(' + title + ')</a></li>'; 
+	c+='<li><a href="http://search.yam.com/Search/Web/DefaultKSA.aspx?SearchType=web&l=0&p=0&k=' + toUTFChar(title) + '" target="_blank">【yam搜索(google提供技术)】在蕃薯藤里搜索(' + title + ')</a></li>'; 
+ 
+	
+	c+='<li><a href="http://cn.bing.com/search?q=' + toUTFChar(title) + '" target="_blank">【bing搜索】在必应里搜索(' + title + ')</a></li>'; 
+
+ 
+	
+	c='<ul class="list">'+c+'</ul>';
+	document.getElementById("searchbody").innerHTML=c; 
+}
+ 
+function utf8(wide) {
+	var c, s;
+	var enc = "";
+	var i = 0;
+	while (i < wide.length) {
+		c = wide.charCodeAt(i++);
+		// handle UTF-16 surrogates
+		if (c >= 0xDC00 && c < 0xE000) continue;
+		if (c >= 0xD800 && c < 0xDC00) {
+			if (i >= wide.length) continue;
+			s = wide.charCodeAt(i++);
+			if (s < 0xDC00 || c >= 0xDE00) continue;
+			c = ((c - 0xD800) << 10) + (s - 0xDC00) + 0x10000;
+		}
+		// output value
+		if (c < 0x80) enc += String.fromCharCode(c);
+		else if (c < 0x800) enc += String.fromCharCode(0xC0 + (c >> 6), 0x80 + (c & 0x3F));
+		else if (c < 0x10000) enc += String.fromCharCode(0xE0 + (c >> 12), 0x80 + (c >> 6 & 0x3F), 0x80 + (c & 0x3F));
+		else enc += String.fromCharCode(0xF0 + (c >> 18), 0x80 + (c >> 12 & 0x3F), 0x80 + (c >> 6 & 0x3F), 0x80 + (c & 0x3F));
+	}
+	return enc;
+}
+var hexchars = "0123456789ABCDEF";
+
+function toHex(n) {
+	return hexchars.charAt(n >> 4) + hexchars.charAt(n & 0xF);
+}
+var okURIchars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
+
+function toUTFChar(s) {
+	var s = utf8(s);
+	var c;
+	var enc = "";
+	for (var i = 0; i < s.length; i++) {
+		if (okURIchars.indexOf(s.charAt(i)) == -1){
+			enc += "%" + toHex(s.charCodeAt(i));
+		}else{
+			enc += s.charAt(i);
+		}
+	}
+	return enc;
+}
+ 
+</script>
+<br>
+
+
+【/bodycontent】

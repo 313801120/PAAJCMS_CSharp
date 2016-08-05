@@ -1,0 +1,27 @@
+【parentid】Download
+【title】PAAJCMS内容管理系统JSP版下载
+【webtitle】PAAJCMS内容管理系统JSP版下载
+【webkeywords】PAAJCMS内容管理系统JSP版下载
+【webdescription】PAAJCMS内容管理系统JSP版下载 QQ313801120
+【sortrank】1
+【author】sharembweb
+【adddatetime】2016-07-12 15:48:08
+【filename】/Download/jspcms-Download.html
+【customaurl】
+【flags】|c|
+【temptxt1】PAAJCMS(JSP)版
+【temptxt2】最新版本: 1.0 Final<br><span style="font-size:10px">JDK(1.6)+JSP(2.0)+MYSQL/SQLITE</span>
+【relatedtags】Download
+【bodycontent】[&全部换行&]JSP版正在开发中...
+下载地址：
+<a class="href1" href="https://github.com/313801120/PAAJCMS_ASP" target="_blank">PAAJCMS_ASP版下载</a>
+<a class="href1" href="https://github.com/313801120/PAAJCMS_PHP" target="_blank">PAAJCMS_PHP版下载</a>
+<a class="href1" href="https://github.com/313801120/PAAJCMS_CSharp" target="_blank">PAAJCMS_CSharp版下载</a>
+
+
+{$TitleInSearchEngineList divclass='article_lable'  title='PAAJCMS内容管理系统JSP版下载'$}
+
+【/bodycontent】
+ 
+ 
+

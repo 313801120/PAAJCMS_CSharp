@@ -1,0 +1,27 @@
+【parentid】Download
+【title】PAAJCMS内容管理系统.NET版下载
+【webtitle】PAAJCMS内容管理系统.NET版下载
+【webkeywords】PAAJCMS内容管理系统.NET版下载
+【webdescription】PAAJCMS内容管理系统.NET版下载 QQ313801120
+【sortrank】2
+【author】sharembweb
+【adddatetime】2016-07-12 15:48:08
+【filename】/Download/dotnet-Download.html
+【customaurl】
+【flags】|c|
+【temptxt1】PAAJCMS(.NET)版
+【temptxt2】最新版本: 1.0 Final<br><span style="font-size:10px">ASP.NET(2.0)+ACCESS/SQL SERVER</span>
+【relatedtags】Download
+【labletitle】<span class="recommended"></span>
+【bodycontent】[&全部换行&]
+PAAJCMS_ASP版， 是一款免费开源的，快速、简单、轻量级网站内容管理系统，有ASP和PHP和ASP.Net等多种版本，并且是相互通用的。只要你写一次，就可以同时在ASP平台和PHP平台和ASP.Net多种平台运行。 创立于2015年初，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。PAAJCMS从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。 并且拥有众多的原创功能和特性，在易用性、扩展性和性能方面不断优化和改进，必将成为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
+
+
+下载地址：
+<a class="href1" href="https://github.com/313801120/PAAJCMS_CSharp" target="_blank">本地下载</a>
+{$TitleInSearchEngineList divclass='article_lable'  title='PAAJCMS内容管理系统.NET版下载'$}
+
+【/bodycontent】
+ 
+ 
+
